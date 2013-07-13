@@ -3,6 +3,8 @@ gradle-junit-spock-testng-mixin
 
 Gradle example project for executing TestNG(Java, Groovy) + JUnit(Java, Groovy) + Spock(Groovy) test cases at same time.
 
+For Maven3 users, see [msakamoto-sf/maven3-junit-spock-testng-mixin](https://github.com/msakamoto-sf/maven3-junit-spock-testng-mixin](https://github.com/msakamoto-sf/maven3-junit-spock-testng-mixin)
+
 Play Guide
 ----
 
