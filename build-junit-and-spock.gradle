@@ -1,0 +1,28 @@
+apply plugin: 'groovy'
+
+description = 'Gradle example project for executing JUnit(Java, Groovy) + Spock(Groovy) test cases.'
+defaultTasks 'clean', 'test'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.1.6'
+    testCompile 'org.testng:testng:6.8.5'
+    testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
+    testCompile 'junit:junit:4.11'
+}
+
+test {
+    testReportDir = file('junit-and-spock/test-reports')
+    testResultsDir = file('junit-and-spock/test-results')
+}
+
+clean {
+    delete << 'junit-and-spock'
+}
+

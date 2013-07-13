@@ -1,0 +1,6 @@
+.settings/*
+.gradle/*
+build/*
+junit-and-spock/*
+junit-spock-testng/*
+testng-only/*
