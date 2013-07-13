@@ -5,6 +5,16 @@ Gradle example project for executing TestNG(Java, Groovy) + JUnit(Java, Groovy) 
 
 For Maven3 users, see [msakamoto-sf/maven3-junit-spock-testng-mixin](https://github.com/msakamoto-sf/maven3-junit-spock-testng-mixin)
 
+`gradle -version`:
+```
+Gradle 1.6
+Groovy: 1.8.6
+Ant: Apache Ant(TM) version 1.8.4 compiled on May 22 2012
+Ivy: 2.2.0
+JVM: 1.7.0_25 (Oracle Corporation 23.25-b01)
+OS: Windows 7 6.1 amd64
+```
+
 Play Guide
 ----
 
